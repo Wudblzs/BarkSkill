@@ -1,0 +1,12 @@
+{
+  "device_keys": {
+    "default": "输入你的设备密钥"
+  },
+  "defaults": {
+    "sound": "calypso",
+    "group": "default",
+    "isArchive": 1,
+    "level": "active",
+    "badge": 0
+  }
+}
