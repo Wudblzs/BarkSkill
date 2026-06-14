@@ -1,24 +1,24 @@
-# BarkSkill
+# Bark Push
 
-Bark 推送技能包 — 在智能体中通过 Bark 向 iPhone 发送推送通知。
+Bark 推送技能包 — 在 opencode 中通过 Bark 向 iPhone 发送推送通知。
 
 ## 安装
 
-将 `bark-skill/` 复制到 opencode 的 skills 目录：
+直接在 opencode 的 skills 目录下克隆：
 
 ```bash
-cp -r bark-skill ~/.config/opencode/skills/
+cd ~/.config/opencode/skills
+git clone https://github.com/Wudblzs/bark-push.git
 ```
 
 ## 配置
 
-编辑 `~/.config/opencode/skills/bark-skill/config.json`，填入你的 device_key：
+编辑 `config.json`，填入你的 device_key：
 
 ```json
 {
   "device_keys": {
-    "default": "你的device_key",
-    "device_key1":"你另一条设备的device_key"
+    "default": "你的device_key"
   }
 }
 ```
