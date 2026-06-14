@@ -32,3 +32,7 @@ device_key 从 Bark App 首页的测试 URL 中获取，例如 `https://api.day.
 > 给我手机发一条推送，内容：记得买牛奶
 
 agent 会自动调用 Bark 推送。也可以通过 `--key` 指定不同设备发送。
+
+## 参考
+
+- [Bark 官方仓库](https://github.com/Finb/Bark) — iOS 推送服务端及 App
